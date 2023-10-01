@@ -6,7 +6,7 @@ a large parallel dataset to build a document-level testset automatically to eval
 We have conducted research mainly in the Chinese to English direction. There are two reasons for contextual ambiguity, namely different tenses and different subjects. After a series of extraction and filtering, we get our test set. The whole test set corresponds to the Chinese file in the dataset. They have the same number of rows and each row of the testset contains either 0 or 1. 1 means that the Chinese sentences in the same row in dataset has contextual ambiguity while 0 means that Chinese sentences in the same row in dataset has no contextual ambiguity. It is worth noting that the size of the test machine is overall small and more research is needed here.
 
 ## Datasets Installation
-We mainly use two datasets: Open Parallel Corpus (OPUS) from WMT23 Shared Task: General Machine Translation and WMT23 Discourse-Level Literary Translation
+We mainly use two datasets: Open Parallel Corpus (OPUS) from WMT23 Shared Task: General Machine Translation and WMT23 Discourse-Level Literary Translation (Literary).
 
 To install the whole WMT23 Shared Task: General Machine Translation:
 
